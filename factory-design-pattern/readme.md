@@ -76,7 +76,23 @@ The **Factory Design Pattern** is a **creational** design pattern that provides 
 3. **Logging Frameworks**  
    - `Logger logger = LoggerFactory.getLogger(YourClass.class);`
 
----
-
 ### **Conclusion**
 The **Factory Pattern** is a powerful tool when working with multiple subclasses and object creation logic that can change frequently. It makes the code **more maintainable** and **scalable**.
+
+---
+## **🔍 Differences & Similarities**
+| Feature            | Factory Pattern | Strategy Pattern |
+|--------------------|----------------|----------------|
+| **Purpose**       | Centralized object creation | Allows runtime selection of behavior |
+| **Focus**         | Encapsulates object creation | Encapsulates algorithms/behaviors |
+| **When to Use?**  | When object creation is complex | When multiple strategies exist for a task |
+| **Example**       | Coffee Shop (creates different types of coffee) | Payment System (chooses different payment methods) |
+| **Flexibility**   | Easy to add new products | Easy to add new behaviors |
+| **Design Principle** | Encapsulation, Abstraction | Open/Closed Principle |
+
+### **Conclusion**
+- If you **want to create objects** without exposing the creation logic → **Use Factory Pattern**.  
+- If you **want to switch between different behaviors dynamically** → **Use Strategy Pattern**.  
+
+💡 Think of **Factory** as **"which object to create?"**  
+💡 Think of **Strategy** as **"which algorithm to use?"**  
