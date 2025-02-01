@@ -17,12 +17,12 @@
 
 | **Category**        | **Pattern Name**     | **Purpose**                                         | **Example in Java**          |
 |---------------------|---------------------|-----------------------------------------------------|------------------------------|
-| **Creational**      | `Singleton`           | Ensures a class has only one instance.             | Database connection manager |
-|                     | `Factory`             | Provides an interface to create objects.           | Shape factory               |
+| **Creational**      | [`Singleton`](https://github.com/Shalini-lodhi/design-patterns/tree/main/singleton-design-pattern)           | Ensures a class has only one instance.             | Database connection manager |
+|                     | [`Factory`](https://github.com/Shalini-lodhi/design-patterns/tree/main/factory-design-pattern)             | Provides an interface to create objects.           | Shape factory               |
 |                     | Builder             | Builds complex objects step by step.               | Car builder                 |
 |                     | Prototype           | Clones existing objects instead of creating new ones. | Cloning a document object  |
 |                     | `Abstract Factory`    | Factory of factories to create related objects.    | GUI toolkit (Button, TextBox) |
-| **Structural**      | `Adapter`             | Allows incompatible interfaces to work together.   | Plug adapter                |
+| **Structural**      | [`Adapter`](https://github.com/Shalini-lodhi/design-patterns/tree/main/adaptor-design-pattern)             | Allows incompatible interfaces to work together.   | Plug adapter                |
 |                     | `Decorator`           | Adds behavior dynamically to an object.            | Coffee with milk            |
 |                     | Proxy               | Controls access to an object.                      | Lazy database connection    |
 |                     | Composite           | Composes objects into tree structures.             | File system hierarchy       |
@@ -30,7 +30,7 @@
 |                     | `Facade`              | Provides a simplified interface to a complex system. | Library management system |
 |                     | `Flyweight`           | Shares objects to reduce memory usage.             | Character object sharing    |
 | **Behavioral**      | `Observer`            | Notifies all dependents when an object changes.    | News subscriber system      |
-|                     | `Strategy`            | Selects an algorithm at runtime.                   | Payment method (PayPal, Card) |
+|                     | [`Strategy`](https://github.com/Shalini-lodhi/design-patterns/tree/main/strategy-design-pattern)            | Selects an algorithm at runtime.                   | Payment method (PayPal, Card) |
 |                     | Command             | Encapsulates requests as objects.                  | Remote control commands     |
 |                     | State               | Changes behavior based on object state.            | Traffic light system        |
 |                     | Template Method     | Defines the skeleton of an algorithm.              | Online order processing     |
