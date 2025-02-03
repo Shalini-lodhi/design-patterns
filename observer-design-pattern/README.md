@@ -1,13 +1,12 @@
-### **Observer Design Pattern (In Layman’s Terms)**
+## **Observer Design Pattern**
 The **Observer Design Pattern** is like a **YouTube subscription system**.
 
 1. You (Observer) **subscribe** to a YouTube channel (Subject).
 2. When the YouTuber uploads a new video, **all subscribers get notified** automatically.
 3. If you **unsubscribe**, you won’t get updates anymore.
 
-This pattern is used when **one object (the Subject) needs to notify multiple other objects (Observers) about changes automatically**.
+> Observer pattern is used when **one object (the Subject) needs to notify multiple other objects (Observers) about changes automatically**.
 
----
 
 ### **When to Use Observer Pattern?**
 ✅ **Use it when:**
