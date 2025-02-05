@@ -7,10 +7,10 @@ The **Facade Pattern** is related to several design patterns, both **similar and
 ## **1️⃣ Similarities & Differences with Other Design Patterns**
 | **Design Pattern**  | **Similarity to Facade** | **Difference from Facade** |
 |----------------|-----------------|------------------|
-| **Adapter Pattern** | Both act as intermediaries between different systems. | **Adapter** converts an **incompatible interface** into a compatible one, while **Facade** simplifies a complex system's interface. |
-| **Decorator Pattern** | Both can modify or extend functionality. | **Decorator** dynamically **adds behavior** at runtime, while **Facade** provides a **simplified interface**. |
-| **Proxy Pattern** | Both provide a level of abstraction over another class. | **Proxy** controls access (security, caching, logging), while **Facade** only simplifies access. |
-| **Mediator Pattern** | Both reduce dependencies between classes. | **Mediator** manages communication **between multiple objects**, while **Facade** is a **single entry point** to a system. |
+| [**Adapter Pattern**](https://github.com/Shalini-lodhi/design-patterns/blob/main/facade-design-pattern/comparison.md#a-facade-vs-adapter) | Both act as intermediaries between different systems. | **Adapter** converts an **incompatible interface** into a compatible one, while **Facade** simplifies a complex system's interface. |
+| [**Decorator Pattern**](https://github.com/Shalini-lodhi/design-patterns/blob/main/facade-design-pattern/comparison.md#b-facade-vs-decorator) | Both can modify or extend functionality. | **Decorator** dynamically **adds behavior** at runtime, while **Facade** provides a **simplified interface**. |
+| [**Proxy Pattern**](https://github.com/Shalini-lodhi/design-patterns/blob/main/facade-design-pattern/comparison.md#c-facade-vs-proxy) | Both provide a level of abstraction over another class. | **Proxy** controls access (security, caching, logging), while **Facade** only simplifies access. |
+| [**Mediator Pattern**](https://github.com/Shalini-lodhi/design-patterns/blob/main/facade-design-pattern/comparison.md#d-facade-vs-mediator) | Both reduce dependencies between classes. | **Mediator** manages communication **between multiple objects**, while **Facade** is a **single entry point** to a system. |
 | **Singleton Pattern** | Facade is often implemented as a Singleton. | **Singleton** ensures only **one instance**, while **Facade** organizes a complex system. |
 
 ---
@@ -264,7 +264,6 @@ public class MediatorExample {
 - **Facade** groups related subsystems into a **single interface**.  
 - **Mediator** allows **communication between objects without direct references**.  
 
----
 
 ## **Conclusion**
 - **Facade** simplifies interaction with **complex subsystems**.  
