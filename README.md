@@ -27,7 +27,7 @@
 |                     | Proxy               | Controls access to an object.                      | Lazy database connection    |
 |                     | Composite           | Composes objects into tree structures.             | File system hierarchy       |
 |                     | Bridge              | Separates abstraction from implementation.         | Remote & TV                 |
-|                     | `Facade`              | Provides a simplified interface to a complex system. | Library management system |
+|                     | [`Facade`](https://github.com/Shalini-lodhi/design-patterns/tree/main/facade-design-pattern)              | Provides a simplified interface to a complex system. | Library management system |
 |                     | `Flyweight`           | Shares objects to reduce memory usage.             | Character object sharing    |
 | **Behavioral**      | `Observer`            | Notifies all dependents when an object changes.    | News subscriber system      |
 |                     | [`Strategy`](https://github.com/Shalini-lodhi/design-patterns/tree/main/strategy-design-pattern)            | Selects an algorithm at runtime.                   | Payment method (PayPal, Card) |
